@@ -1,0 +1,219 @@
+*{
+    margin:0px;
+    padding:0px;
+    }
+    ul{}
+    ul li{
+    list-style: none;
+    }
+    a{
+    text-decoration: none;
+    }
+    /*Common CSS End*/
+    .center{
+    display: flex;
+    justify-content: center;
+    }
+    .container{
+    width: 92%;
+    }
+    .container .menubar{
+   
+    background:turquoise;
+    }
+    .container .logo img{
+    width: 120px;
+    }
+    .menubar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    .menubar ul li a{
+    color: #000;
+    }
+    /*header part Start*/
+    .header_part{
+    background-image: url(../img/tt.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    w
+    }
+    .header_part .container{
+        padding: 18px 0;
+    }
+    .header_part .main-con{
+    padding: 40px;
+    background: rgb(151 151 151 / 40%);;
+    display: inline-block;
+    text-align: center;
+    padding: 61px;
+    }
+    .header_part .main-con h2{
+    font-size: 40px;
+    color: #000;
+    text-transform: uppercase;
+    }
+    .header_part .main-con p{
+    font-size: 16px;
+    color: #fff;
+    }
+    .header_part .main-con .btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+    }
+    .header_part .main-con .btn a{
+    background: green;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 19px;
+}
+    }
+    .social-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 136px;
+    }
+    .social-icon i{
+    
+        width: 32px;
+        
+        height: 30px;
+        color: white;
+        border-radius: 50%;
+        background-color: blue;
+        align-items: center;
+        line-height: 30px;
+        margin: 0 5px;
+        padding: 7px;
+    }
+    .social-icon .fa-facebook-f {
+        background-color: #3b5998;
+        transition: all linear .2s;
+    }
+    .social-icon .fa-facebook-f:hover{
+        background-color: white;
+        color: #3b5998;
+    }
+    .social-icon .fa-twitter{
+        background-color: #00acee;
+        transition: all linear .2s;
+    }
+    .social-icon .fa-twitter:hover{
+        background-color: white;
+        color: #00acee;
+    }
+    .social-icon .fa-instagram {
+        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+        transition: all linear .2s;
+    }
+    .social-icon .fa-instagram:hover {
+        background: white;
+        color:#DD2A7B;  
+    }
+    .social-icon .fa-envelope {
+        background: #F8485E ;
+        transition: all linear .2s;
+    }
+    .social-icon .fa-envelope:hover{
+        background: #fff;
+        color: #F8485E;
+    }
+    .social-icon-two{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 136px;
+    }
+    .about p{
+        margin-bottom: 13px;
+      }
+      .about1{
+        width: 18%;
+        float: left;
+         padding: 12px;
+         margin: 58px 0px 0px 100px;
+      }
+      .about2{
+        width:18%;
+        float: left;
+        padding: 12px;
+        margin-top: 58px;
+      }
+      .about3{
+        width: 18%;
+        float: left;
+         padding: 12px;
+        margin-top: 58px;
+      }
+      .about4{
+        width: 18%;
+        float: left;
+        padding: 12px;
+        margin-top: 58px;
+      }
+      .fa.fa-check{
+        font-size: 63px;
+        color: #FFF4FE;
+        background: #6979CC;
+        padding: 5px 12px;
+        border-radius: 50%;
+      }
+      .fa.fa-map-marker{
+        font-size: 63px;
+        color: #FFF4FE;
+        background: #009788;
+        padding: 5px 12px;
+        border-radius: 50%;
+      }
+      .fa.fa-money{
+        font-size: 63px;
+        color: #FFF4FE;
+        background: #4CB050;
+        padding: 5px 12px;
+        border-radius: 50%;
+      }
+      .fa.fa-user-plus{
+        font-size: 63px;
+        color: #FFF4FE;
+        background: #97E268;
+        padding: 5px 12px;
+        border-radius: 50%;
+      }
+    }
+    .invest ul{
+      font-size: 16px;
+    }
+    .invest h2{
+      text-align: center;
+    }
+    .invest a{
+      text-decoration: none;
+        border: 1px solid #999;
+        padding: 6px 10px;
+        background: #5EC928;
+        margin: 5px 5px 10px -12px;
+        color: #FFF4FE;
+    }
+    .invest1{
+         width: 27%;
+        float: left;
+        border: 1px solid #999;
+        background: #B8CCD5;
+        padding: 36px 35px 39px 58px;
+        line-height: 34px;
+        margin: 0px 20px 20px 140px;
+    }
+    .invest2{
+         width: 27%;
+        float: left;
+        border: 1px solid #999;
+        background: #B8CCD5;
+        padding: 36px 35px 39px 58px;
+        line-height: 34px;
+        margin: 0px 14px 20px 16px;
+    }
